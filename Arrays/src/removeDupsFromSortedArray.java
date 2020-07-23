@@ -3,9 +3,9 @@
  Do not allocate extra space for another array, you must do this by modifying the input array in-place
  with O(1) extra memory. **/
 
-public class removeDupsFromSortedArray {
+public class RemoveDupsFromSortedArray {
     public int removeDuplicates(int[] nums) {
-        int i = 0; // keep track of index in sorted array
+        int i = 0; // keep track of index in sorted array nums
         int j = 1; // variable to iterate past duplicates
         int length = 1; // number of non duplicate elements
         while (j < nums.length) {
